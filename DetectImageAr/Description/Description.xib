@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DescriptionView" customModule="DetectImageAr" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="dkP-hH-I4A" id="MJ2-Ia-6Iz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="528" height="347"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dkP-hH-I4A">
+                    <rect key="frame" x="0.0" y="0.0" width="528" height="347"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <mutableString key="text">Essentially The Scream is autobiographical, an expressionistic construction based on Munch's actual experience of a scream piercing through nature while on a walk, after his two companions, seen in the background, had left him. Fitting the fact that the sound must have been heard at a time when his mind was in an abnormal state, Munch renders it in a style which if pushed to extremes can destroy human integrity. As previously noted, the flowing curves of art nouveau represent a subjective linear fusion imposed upon nature, whereby the multiplicity of particulars is unified into a totality of organic suggestion with feminine overtones. But man is part of nature, and absorption into such a totality liquidates the individual. Beginning at this time Munch included art nouveau elements in many pictures but usually only in a limited or modified way. Here, however, in depicting his own morbid experience, he has let go, and allowed the foreground figure to become distorted by the subjectivized flow of nature; the scream could be interpreted as expressing the agony of the obliteration of human personality by this unifying force. Significantly, although it was Munch himself who underwent the experience depicted, the protagonist bears no resemblance to him or anyone else. The creature in the foreground has been depersonalized and crushed into sexlessness or, if anything, stamped with a trace of the femininity of the world that has come close to assimilating it. 
+</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dkP-hH-I4A" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="MHS-Ob-UjF"/>
+                <constraint firstItem="dkP-hH-I4A" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RTR-hh-gdB"/>
+                <constraint firstAttribute="trailing" secondItem="dkP-hH-I4A" secondAttribute="trailing" id="TSt-bc-Qy7"/>
+                <constraint firstItem="dkP-hH-I4A" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ic1-r4-lvB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="176" y="-95.802098950524751"/>
+        </view>
+    </objects>
+</document>
