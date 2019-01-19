@@ -12,6 +12,10 @@
 		5DFCC17221F3412E009D2B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFCC17021F3412E009D2B3D /* Main.storyboard */; };
 		5DFCC17421F3412F009D2B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFCC17321F3412F009D2B3D /* Assets.xcassets */; };
 		5DFCC17721F3412F009D2B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFCC17521F3412F009D2B3D /* LaunchScreen.storyboard */; };
+		5DFCC17F21F34183009D2B3D /* DetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DFCC17E21F34183009D2B3D /* DetailsView.xib */; };
+		5DFCC18121F3426B009D2B3D /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCC18021F3426B009D2B3D /* DetailsView.swift */; };
+		5DFCC18521F360EC009D2B3D /* Description.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DFCC18421F360EC009D2B3D /* Description.xib */; };
+		5DFCC18721F36136009D2B3D /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCC18621F36136009D2B3D /* Description.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5DFCC17321F3412F009D2B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DFCC17621F3412F009D2B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DFCC17821F3412F009D2B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DFCC17E21F34183009D2B3D /* DetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsView.xib; sourceTree = "<group>"; };
+		5DFCC18021F3426B009D2B3D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		5DFCC18421F360EC009D2B3D /* Description.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Description.xib; sourceTree = "<group>"; };
+		5DFCC18621F36136009D2B3D /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 		5DFCC16B21F3412E009D2B3D /* DetectImageAr */ = {
 			isa = PBXGroup;
 			children = (
+				5DFCC18321F360D4009D2B3D /* Description */,
+				5DFCC18221F360B5009D2B3D /* DetailsView */,
 				5DFCC16C21F3412E009D2B3D /* AppDelegate.swift */,
 				5DFCC16E21F3412E009D2B3D /* ViewController.swift */,
 				5DFCC17021F3412E009D2B3D /* Main.storyboard */,
@@ -62,6 +72,24 @@
 				5DFCC17821F3412F009D2B3D /* Info.plist */,
 			);
 			path = DetectImageAr;
+			sourceTree = "<group>";
+		};
+		5DFCC18221F360B5009D2B3D /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				5DFCC17E21F34183009D2B3D /* DetailsView.xib */,
+				5DFCC18021F3426B009D2B3D /* DetailsView.swift */,
+			);
+			path = DetailsView;
+			sourceTree = "<group>";
+		};
+		5DFCC18321F360D4009D2B3D /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				5DFCC18421F360EC009D2B3D /* Description.xib */,
+				5DFCC18621F36136009D2B3D /* Description.swift */,
+			);
+			path = Description;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DFCC17721F3412F009D2B3D /* LaunchScreen.storyboard in Resources */,
+				5DFCC18521F360EC009D2B3D /* Description.xib in Resources */,
+				5DFCC17F21F34183009D2B3D /* DetailsView.xib in Resources */,
 				5DFCC17421F3412F009D2B3D /* Assets.xcassets in Resources */,
 				5DFCC17221F3412E009D2B3D /* Main.storyboard in Resources */,
 			);
@@ -135,8 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFCC18721F36136009D2B3D /* Description.swift in Sources */,
 				5DFCC16F21F3412E009D2B3D /* ViewController.swift in Sources */,
 				5DFCC16D21F3412E009D2B3D /* AppDelegate.swift in Sources */,
+				5DFCC18121F3426B009D2B3D /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
